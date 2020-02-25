@@ -406,3 +406,5 @@ func (w *gormw) RowsAffected() int64 {
 func (w *gormw) Error() error {
 	return w.db.Error
 }
+
+type Model gorm.Model
